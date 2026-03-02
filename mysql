@@ -1,16 +1,8 @@
 create database web_db;
 use web_db;
 create table credentials(  id  int  unique auto_increment ,fname varchar(25),lname varchar(25) , email varchar(50),Username varchar(50) , Pass varchar(30));
-insert into credentials (fname,lname,email,Username,Pass)values ("Mohammad","Ammar","abuzerali8813@gmail.com","Ammar","Ammar@123");
 alter table credentials modify pass varchar(50) ;
-select * from credentials;
-drop table credentials;
-SET SQL_SAFE_UPDATES = 0;
-select * from credentials where lname = "Ammar" and email =  "abuzerali8813@gmail.com";
-update credentials set pass = "Ammar@123" where email="abuzerali8813@gmail.com";
 
-
-describe credentials;
 
 
 
