@@ -16,8 +16,8 @@ import jakarta.servlet.http.HttpServletResponse;
 public class registerService extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private final String url = "jdbc:mysql://localhost:3306/web_db";
-	private final String user = "root";
-	private final String pass = "Lucifer";
+	private final String user = *****;
+	private final String pass = ******;
 
 	@Override
 	protected void doGet(HttpServletRequest request, HttpServletResponse response)
