@@ -20,8 +20,8 @@ import jakarta.servlet.http.HttpServletResponse;
 public class loginservice extends HttpServlet {
 	private static final long serialVersionUID = 1L;
 	private final String url = "jdbc:mysql://localhost:3306/web_db";
-	private final String user = "root";
-	private final String pass = "Lucifer";
+	private final String user = *****;
+	private final String pass = *****;
 
 	/**
 	 * @see HttpServlet#HttpServlet()
